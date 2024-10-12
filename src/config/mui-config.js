@@ -49,4 +49,14 @@ export const theme = createTheme({
             fontWeight: 400,
         },
     },
+
+    components: {
+        MuiContainer: {
+            styleOverrides: {
+                maxWidthXs: {
+                    maxWidth: "1280px !important",
+                },
+            },
+        },
+    },
 });
